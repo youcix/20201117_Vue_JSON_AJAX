@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+
+body{
+    background:#E1DCD9;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+    padding: 20px;
+    
+    .box{
+        padding: 20px;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+        border-radius: 15px;
+        background:white;
+
+        h2,h4,{
+            padding: 5px;
+        }
+    }
+}
